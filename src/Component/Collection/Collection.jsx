@@ -13,14 +13,14 @@ const Collection = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-[40]">
-        <div>
+          <div className="card">
             <img src={p2} alt="" />
           </div>
-          <div>
+          <div className="card">
             <img src={p1} alt="" />
           </div>
-          
-          <div>
+
+          <div className="card">
             <img src={p3} alt="" />
           </div>
         </div>

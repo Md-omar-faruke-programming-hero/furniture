@@ -2,7 +2,7 @@ import banner from "../../assets/banner.png";
 import s1 from "../../assets/s1.png";
 import s2 from "../../assets/s2.png";
 import s3 from "../../assets/s3.png";
-
+import {  Reveal } from "react-reveal";
 
 const Banner = () => {
   return (
@@ -17,22 +17,24 @@ const Banner = () => {
           }}
         >
           <div className="w-full md:w-auto px-5">
-            <div className="bg-[#DFE9F4] rounded-[10px] shadow-2xl w-full max-w-[643px] h-auto md:h-[443px] mr-0 md:mr-[90px] p-[20px] md:p-[40px]">
-              <span className="text-[12px] md:text-[16px] text-[#333333] mon600 tracking-[2px] md:tracking-[3px] leading-[16px] md:leading-[19.3px] mb-[10px] md:mb-[20px] block">
-                New Arrival
-              </span>
-              <h1 className="mon700 text-[32px] md:text-[52px] font-bold leading-[40px] md:leading-[65px] text-[#054C73] mb-[10px] md:mb-[20px]">
-                Discover Our <br />
-                New Collection
-              </h1>
-              <p className="text-[#333333] text-[14px] md:text-[18px] leading-[24px] md:leading-[39px] mon500 font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                ullamcorper mattis.
-              </p>
-              <button className="px-[40px] md:px-[72px] py-[15px] md:py-[25px] bg-[#054C73] rounded-[50px] text-white text-[14px] md:text-[16px] mon700 font-bold mt-[20px] md:mt-[30px]">
-                BUY NOW
-              </button>
-            </div>
+            <Reveal effect="slide-in-left">
+              <div className="bg-[#DFE9F4] rounded-[10px] shadow-2xl w-full max-w-[643px] h-auto md:h-[443px] mr-0 md:mr-[90px] p-[20px] md:p-[40px]">
+                <span className="text-[12px] md:text-[16px] text-[#333333] mon600 tracking-[2px] md:tracking-[3px] leading-[16px] md:leading-[19.3px] mb-[10px] md:mb-[20px] block">
+                  New Arrival
+                </span>
+                <h1 className="mon700 text-[32px] md:text-[52px] font-bold leading-[40px] md:leading-[65px] text-[#054C73] mb-[10px] md:mb-[20px]">
+                  Discover Our <br />
+                  New Collection
+                </h1>
+                <p className="text-[#333333] text-[14px] md:text-[18px] leading-[24px] md:leading-[39px] mon500 font-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
+                  nec ullamcorper mattis.
+                </p>
+                <button className="px-[40px] md:px-[72px] py-[15px] md:py-[25px] bg-[#054C73] rounded-[50px] text-white text-[14px] md:text-[16px] mon700 font-bold mt-[20px] md:mt-[30px] hover:bg-[black]">
+                  BUY NOW
+                </button>
+              </div>
+            </Reveal>
           </div>
         </div>
       </div>

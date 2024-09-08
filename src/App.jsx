@@ -10,7 +10,7 @@ import Join from "./Component/Join/Join";
 function App() {
   return (
    <divb className="w-full">
-     <div className="px-[20px]">
+     <div className="px-[20px] md:px-0">
       <Heder></Heder>
       <Banner></Banner>
       <Collection></Collection>
